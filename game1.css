@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+    background-color: #152537;
+    font-family: "Poppins", Sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 23%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 10%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.game1{
+    text-align: center;
+    margin: 30px;
+   
+   padding: 20px;
+   border: #009FFF 2px solid;
+   border-radius: 20px;
+}
+.game1 img{
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #009FFF;
+    box-shadow: 2px 2px 5px black;
+}
+.game1 img:hover{
+    transform: scale(1.05);
+}
+.game1 h3{
+    color: white;
+    font-size: 36px;
+}
+.game1 p{
+    color: white;
+    font-size: 16px;
+    margin-top: -10px
+}
+.game1 a{
+    text-decoration-line: none;
+    color: white;
+}
+.game1 button{
+    background: #009FFF;
+    border-radius: 50px;
+    border: none;
+    width: 600px;
+    height: 30px;
+    box-shadow: 1px 1px 3px black;
+}
+.game1 button:hover{
+    background: white;
+    color: #152537;
+}
+.game1 a:hover{
+    color: #152537;
+    
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+
+@media (max-width:600px){
+body{
+    margin: 0;
+    background-color: #152537;
+    font-family: "Poppins", Sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 5%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.game1{
+    text-align: center;
+    margin: 30px;
+   
+   padding: 20px;
+   border: #009FFF 2px solid;
+   border-radius: 20px;
+}
+.game1 img{
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #009FFF;
+    box-shadow: 2px 2px 5px black;
+}
+.game1 img:hover{
+    transform: scale(1.05);
+}
+.game1 h3{
+    color: white;
+    font-size: 36px;
+}
+.game1 p{
+    color: white;
+    font-size: 16px;
+    margin-top: -10px
+}
+.game1 a{
+    text-decoration-line: none;
+    color: white;
+}
+.game1 button{
+    background: #009FFF;
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    box-shadow: 1px 1px 3px black;
+}
+.game1 button:hover{
+    background: white;
+    color: #152537;
+}
+.game1 a:hover{
+    color: #152537;
+    
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+}
+
+@media (min-width:601px) and (max-width:900px){
+ body{
+margin: 0;
+background-color: #152537;
+font-family: "Poppins", Sans-serif;
+overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 5%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.game1{
+    text-align: center;
+    margin: 30px;
+   
+   padding: 20px;
+   border: #009FFF 2px solid;
+   border-radius: 20px;
+}
+.game1 img{
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #009FFF;
+    box-shadow: 2px 2px 5px black;
+}
+.game1 img:hover{
+    transform: scale(1.05);
+}
+.game1 h3{
+    color: white;
+    font-size: 36px;
+}
+.game1 p{
+    color: white;
+    font-size: 16px;
+    margin-top: -10px
+}
+.game1 a{
+    text-decoration-line: none;
+    color: white;
+}
+.game1 button{
+    background: #009FFF;
+    border-radius: 50px;
+    border: none;
+    width: 480px;
+    height: 30px;
+    box-shadow: 1px 1px 3px black;
+}
+.game1 button:hover{
+    background: white;
+    color: #152537;
+}
+.game1 a:hover{
+    color: #152537;
+    
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+}

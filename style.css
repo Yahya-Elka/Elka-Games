@@ -1,0 +1,714 @@
+body{
+    margin: 0;
+    background-color: #152537;
+    font-family: "Poppins", Sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 23%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 10%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.logo{
+    margin: 0;
+}
+.logo h1{
+    color: white;
+    font-family: "Oswald", sans-serif;
+
+   /*  color: #152537;*/
+    font-size: 180px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    /* text-shadow: 0 0 10px #009FFF;*/
+    margin-bottom: -100px;
+   
+}
+.logo span{
+    color: #009FFF;
+}
+.logo h1:hover{
+    text-shadow: 0 0 10px #009FFF;
+}
+.logo h1:hover{
+    transform: scale(1.05);
+}
+.espace1{
+    height: 100px;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text pre{
+    font-size: 16px;
+}
+.text p{
+    margin-top: -20px;
+}
+.espace2{
+    height: 100px;
+}
+.game h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.imges{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+.imges img{
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #009FFF;
+    box-shadow: 2px 2px 5px black;
+}
+.imges img:hover{
+    transform: scale(1.05);
+}
+.imges button{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+}
+.imges button:hover{
+    background: #009FFF;
+}
+.imges button:hover{
+    transform: scale(1.05);
+}
+.imges a{
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.all a{
+    color: white;
+    text-align: right;
+    /* text-decoration-line: ;*/
+    position: relative;
+    right: 3%;
+    display: block; 
+    padding: 20px;
+    font-weight: bold;
+}
+
+.all a:hover{
+    color: #009FFF;
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    background-color: #152537;
+    font-family: "Poppins", Sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+    width: 100%;
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 5%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.logo{
+    margin: 0;
+}
+.logo h1{
+    color: white;
+    font-family: "Oswald", sans-serif;
+
+   /*  color: #152537;*/
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    /* text-shadow: 0 0 10px #009FFF;*/
+    margin-bottom: -100px;
+   
+}
+.logo span{
+    color: #009FFF;
+}
+.logo h1:hover{
+    text-shadow: 0 0 10px #009FFF;
+}
+.logo h1:hover{
+    transform: scale(1.05);
+}
+.espace1{
+    height: 100px;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+.text h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.text pre{
+    font-size: 16px;
+    display: inline;
+}
+.text p{
+    margin-top: -20px;
+}
+.espace2{
+    height: 100px;
+}
+.game h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.imges{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+.imges img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #009FFF;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 15px;
+    
+}
+.imges img:hover{
+    transform: scale(1.05);
+}
+.imges button{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+}
+.imges button:hover{
+    background: #009FFF;
+}
+.imges button:hover{
+    transform: scale(1.05);
+}
+.imges a{
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.all a{
+    color: white;
+    text-align: right;
+    /* text-decoration-line: ;*/
+    position: relative;
+    right: 3%;
+    display: block; 
+    padding: 20px;
+    font-weight: bold;
+}
+
+.all a:hover{
+    color: #009FFF;
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 200px;
+    position: relative;
+    bottom: 0;
+    height: 250px;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:601px) and (max-width:900px){
+
+
+
+
+
+
+body{
+margin: 0;
+background-color: #152537;
+font-family: "Poppins", Sans-serif;
+overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 5%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.logo{
+    margin: 0;
+}
+.logo h1{
+    color: white;
+    font-family: "Oswald", sans-serif;
+
+   /*  color: #152537;*/
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    /* text-shadow: 0 0 10px #009FFF;*/
+    margin-bottom: -100px;
+   
+}
+.logo span{
+    color: #009FFF;
+}
+.logo h1:hover{
+    text-shadow: 0 0 10px #009FFF;
+}
+.logo h1:hover{
+    transform: scale(1.05);
+}
+.espace1{
+    height: 100px;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+.text h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.text pre{
+    font-size: 16px;
+}
+.text p{
+    margin-top: -20px;
+}
+.espace2{
+    height: 100px;
+}
+.game h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.imges{
+
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+.imges img{
+    margin-top: 15px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #009FFF;
+    box-shadow: 2px 2px 5px black;
+}
+.imges img:hover{
+    transform: scale(1.05);
+}
+.imges button{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+}
+.imges button:hover{
+    background: #009FFF;
+}
+.imges button:hover{
+    transform: scale(1.05);
+}
+.imges a{
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.all a{
+    color: white;
+    text-align: right;
+    /* text-decoration-line: ;*/
+    position: relative;
+    right: 3%;
+    display: block; 
+    padding: 20px;
+    font-weight: bold;
+}
+
+.all a:hover{
+    color: #009FFF;
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 200px;
+    position: relative;
+    bottom: 0;
+    height: 250px;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+}

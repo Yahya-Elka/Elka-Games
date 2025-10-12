@@ -1,0 +1,665 @@
+body{
+    margin: 0;
+    background-color: #152537;
+    font-family: "Poppins", Sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 23%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 10%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.box {
+
+    background: #233b57;
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    /*
+    position: relative;
+    top: 50px;
+    left: 50%;*/
+    box-shadow: 1px 1px 3px black;
+    margin-bottom: 100px ;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+}
+.box label, input{
+    display: block;
+    margin: 5px;
+}
+.box input{
+    /*
+    background: rgb(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    */
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin: 10px;
+    background: rgb(255, 255, 255 ,0.3);
+    color: white;
+    /*box-shadow: 1px 1px 3px black;*/
+    padding-left: 10px;
+}
+.box input::placeholder{
+    color: #152537;
+    
+    font-size: 11px;
+}
+.box label{
+    color: white;
+    font-size: 14px;
+    margin-left: 11px;
+    font-weight: bold;
+    /*text-shadow: 1px 1px 1px black;*/
+}
+.box textarea{
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin: 10px;
+    background: rgb(255, 255, 255 ,0.3);
+    color: #152537;
+    /*box-shadow: 1px 1px 3px black;*/
+    padding-left: 10px;
+    width: 560px;
+    height: 100px;
+}
+.send input{
+    background: #009FFF;
+    width: 130px;
+}
+.send input:hover{
+    box-shadow: 1px 1px 3px black;
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.us img{
+    width: 20px;  
+    margin-left: 0px;
+    margin-right: 20px;  
+}
+.us h1{
+    color: white;
+    font-size: 40px;
+}
+.us p{
+    color: white;
+    font-size: 16px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+form, .us{
+    margin: 20px;
+}
+
+@media (max-width:600px){
+
+
+
+
+ body{
+    margin: 0;
+    background-color: #152537;
+    font-family: "Poppins", Sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+    width: 100%;
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    display: block;
+}
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 5%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.box {
+
+    background: #233b57;
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+    /*
+    position: relative;
+    top: 50px;
+    left: 50%;*/
+    box-shadow: 1px 1px 3px black;
+    margin-bottom: 100px ;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box label, input{
+    display: block;
+    margin: 5px;
+}
+.box input{
+    /*
+    background: rgb(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    */
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin: 10px;
+    background: rgb(255, 255, 255 ,0.3);
+    color: white;
+    /*box-shadow: 1px 1px 3px black;*/
+    padding-left: 10px;
+}
+.box input::placeholder{
+    color: #152537;
+    
+    font-size: 11px;
+}
+.box label{
+    color: white;
+    font-size: 14px;
+    margin-left: 11px;
+    font-weight: bold;
+    /*text-shadow: 1px 1px 1px black;*/
+}
+.box textarea{
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin: 10px;
+    background: rgb(255, 255, 255 ,0.3);
+    color: #152537;
+    /*box-shadow: 1px 1px 3px black;*/
+    padding-left: 10px;
+    width: 310px;
+    height: 100px;
+}
+.send input{
+    background: #009FFF;
+    width: 130px;
+}
+.send input:hover{
+    box-shadow: 1px 1px 3px black;
+}
+footer{
+    background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.us img{
+    width: 20px;  
+    margin-left: 0px;
+    margin-right: 20px;  
+}
+.us h1{
+    color: white;
+    font-size: 40px;
+}
+.us p{
+    color: white;
+    font-size: 16px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+form, .us{
+    margin: 20px;
+}
+
+
+
+
+
+}
+
+
+
+@media (min-width:601px) and (max-width:900px){
+
+
+
+ body{
+    margin: 0;
+    background-color: #152537;
+    font-family: "Poppins", Sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #161D26;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    position: relative;
+    box-shadow: 0 0 5px black; 
+    width: 100%;
+}
+nav img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    display: block;
+}
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
+nav ul{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+nav a:hover{
+    color: #009FFF;
+}
+nav a:focus{
+    color: #009FFF;
+    border-bottom: 3px solid #009FFF;
+}
+nav button{
+    background: transparent;
+    border: 2px solid #009FFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 32px;
+    right: 5%;
+    padding: 5px 10px;
+}
+.login a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a:hover{
+    color: white;
+}
+.login button:hover{
+    background: #009FFF;
+}
+.box {
+
+    background: #233b57;
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    /*
+    position: relative;
+    top: 50px;
+    left: 50%;*/
+    box-shadow: 1px 1px 3px black;
+    margin-bottom: 100px ;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+}
+.box label, input{
+    display: block;
+    margin: 5px;
+}
+.box input{
+    /*
+    background: rgb(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    */
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin: 10px;
+    background: rgb(255, 255, 255 ,0.3);
+    color: white;
+    /*box-shadow: 1px 1px 3px black;*/
+    padding-left: 10px;
+}
+.box input::placeholder{
+    color: #152537;
+    
+    font-size: 11px;
+}
+.box label{
+    color: white;
+    font-size: 14px;
+    margin-left: 11px;
+    font-weight: bold;
+    /*text-shadow: 1px 1px 1px black;*/
+}
+.box textarea{
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin: 10px;
+    background: rgb(255, 255, 255 ,0.3);
+    color: #152537;
+    /*box-shadow: 1px 1px 3px black;*/
+    padding-left: 10px;
+    width: 560px;
+    height: 100px;
+}
+.send input{
+    background: #009FFF;
+    width: 130px;
+}
+.send input:hover{
+    box-shadow: 1px 1px 3px black;
+}
+footer{
+        background: #161D26;
+    box-shadow: 0 0 5px black;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.game-menu a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.game-menu h2{
+    color: white;
+}
+.game-menu p{
+    font-size: 10px;
+}
+.media{
+    text-align: center;
+}
+.media h2{
+    color: white;
+}
+.media img{
+    width: 20px;
+    padding: 6px;
+}
+.elka h2{
+    color: white;
+}
+.elka{
+    color: white;
+    text-align: center;
+}
+.elka p{
+    text-align: center;
+    font-size: 14px
+}
+footer .p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.us img{
+    width: 20px;  
+    margin-left: 0px;
+    margin-right: 20px;  
+}
+.us h1{
+    color: white;
+    font-size: 40px;
+}
+.us p{
+    color: white;
+    font-size: 16px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+form, .us{
+    margin: 20px;
+}
+
+
+
+}
